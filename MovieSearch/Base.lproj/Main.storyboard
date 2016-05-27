@@ -30,18 +30,18 @@
                                     <rect key="frame" x="0.0" y="0.0" width="600" height="399"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PbD-Im-lPV">
-                                            <rect key="frame" x="8" y="86" width="584" height="21"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7M9-sJ-rZQ">
+                                            <rect key="frame" x="8" y="31" width="584" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r2p-R9-mha">
-                                            <rect key="frame" x="8" y="115" width="584" height="58"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r2p-R9-mha">
+                                            <rect key="frame" x="8" y="89" width="584" height="84"/>
                                             <constraints>
-                                                <constraint firstAttribute="height" constant="58" id="tie-4b-mIu"/>
+                                                <constraint firstAttribute="height" constant="84" id="tie-4b-mIu"/>
                                             </constraints>
-                                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                            <fontDescription key="fontDescription" type="system" weight="thin" pointSize="13"/>
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
@@ -51,8 +51,8 @@
                                                 <constraint firstAttribute="width" constant="240" id="JgM-C2-i6O"/>
                                             </constraints>
                                         </imageView>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7M9-sJ-rZQ">
-                                            <rect key="frame" x="8" y="31" width="584" height="21"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PbD-Im-lPV">
+                                            <rect key="frame" x="8" y="60" width="584" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
@@ -66,7 +66,7 @@
                                         <constraint firstItem="gDR-XA-9yR" firstAttribute="centerY" secondItem="146-z7-j1M" secondAttribute="centerY" constant="86.5" id="KCe-zl-fgU"/>
                                         <constraint firstItem="gDR-XA-9yR" firstAttribute="centerX" secondItem="7M9-sJ-rZQ" secondAttribute="centerX" id="Nqa-n1-XYi"/>
                                         <constraint firstItem="gDR-XA-9yR" firstAttribute="centerX" secondItem="146-z7-j1M" secondAttribute="centerX" id="OCK-cC-y2O"/>
-                                        <constraint firstItem="PbD-Im-lPV" firstAttribute="top" secondItem="7M9-sJ-rZQ" secondAttribute="bottom" constant="34" id="ccX-JW-Axm"/>
+                                        <constraint firstItem="PbD-Im-lPV" firstAttribute="top" secondItem="7M9-sJ-rZQ" secondAttribute="bottom" constant="8" id="ccX-JW-Axm"/>
                                         <constraint firstItem="gDR-XA-9yR" firstAttribute="centerX" secondItem="PbD-Im-lPV" secondAttribute="centerX" id="pJc-TK-XjZ"/>
                                         <constraint firstItem="gDR-XA-9yR" firstAttribute="centerX" secondItem="r2p-R9-mha" secondAttribute="centerX" id="rke-fH-piE"/>
                                         <constraint firstItem="gDR-XA-9yR" firstAttribute="top" secondItem="r2p-R9-mha" secondAttribute="bottom" constant="8" symbolic="YES" id="wkg-YH-nVk"/>
